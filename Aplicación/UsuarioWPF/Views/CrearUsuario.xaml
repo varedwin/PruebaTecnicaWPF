@@ -1,0 +1,23 @@
+﻿<Window x:Class="UsuarioWPF.Views.CrearUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UsuarioWPF.Views"
+        mc:Ignorable="d"
+        Title="CrearUsuario" Height="400" Width="450">
+    <Grid Height="600" Width="450">
+        <Label Content="Nombre" Margin="25" VerticalAlignment="Top" HorizontalAlignment="left"/>
+        <TextBox  Height="30" Text="{Binding Nombre , ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Validation.ErrorTemplate="{StaticResource errorTemplate}" Width="200" Margin="25,50" VerticalAlignment="Top" HorizontalAlignment="left" BorderThickness="1" BorderBrush="#E0E0E0" />
+        <Label Content="Apellido" Margin="25,90" VerticalAlignment="Top" HorizontalAlignment="left"/>
+        <TextBox  Height="30" Width="200" Text="{Binding Apellido, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="25,115" VerticalAlignment="Top" HorizontalAlignment="left" BorderThickness="1" BorderBrush="#E0E0E0" />
+
+        <Label Content="Cédula" Margin="25,150" VerticalAlignment="Top" HorizontalAlignment="left"/>
+        <TextBox  Height="30" Text="{Binding Cedula, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Width="200" Margin="25,180" VerticalAlignment="Top" HorizontalAlignment="left" BorderThickness="1" BorderBrush="#E0E0E0" />
+
+        <Label Content="Dirección" Margin="25,220" VerticalAlignment="Top"/>
+        <TextBox  Height="30" Text="{Binding Direccion, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Width="200" Margin="25,250" VerticalAlignment="Top" HorizontalAlignment="left" BorderThickness="1" BorderBrush="#E0E0E0" />
+        
+        <Button Height="30" Command="{Binding GuardarUsuarioCommand}" IsEnabled="{Binding GuardarUsuarioCommand.CanGuardarUsuario, Mode=TwoWay}" Content="Guardar" Width="85"  VerticalContentAlignment="Center" Padding="5" Margin="25,285" VerticalAlignment="Center" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="#E0E0E0" RenderTransformOrigin="0.627,-6.352" />
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿UsuarioWPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Edwin Vargas\source\repos\PruebaTecnicaWPF\UsuarioWPF\obj\Debug\net6.0-windows\
+UsuarioWPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\Edwin Vargas\source\repos\PruebaTecnicaWPF\UsuarioWPF\App.xaml
+3-410153977
+
+20-2055002587
+195-683115678
+MainWindow.xaml;Views\CrearUsuario.xaml;Views\GuardarAreaUsuario.xaml;
+
+False
+

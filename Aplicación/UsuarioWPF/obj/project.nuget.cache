@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUOgGXVFqsAtNLicFCG1FTdRp3SODAp8BQXV9TpxfuazUIMDd2a8LrldTamIMYlKyZ8QGcDUyQRyBXB5AUnZGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edwin Vargas\\source\\repos\\PruebaTecnicaWPF\\UsuarioWPF\\UsuarioWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edwin Vargas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
